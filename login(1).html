@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>教务系统登录</title>
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#loginDiv{
+				background-color: white;
+	            width: 550px;
+	            height: 530px;
+	            margin: 0 auto;
+	            color: #1E9FFF;
+	            margin-top: 100px;
+	            text-align: center;	
+	            padding-top: 20px;	
+			}
+			#uname{
+				width: 400px;
+				height: 35px;
+				border-radius:5px ;
+				border: 1px solid lightgray;
+			    margin-left: -30px;
+			    background-color:transparent ;
+			    padding-left:30px ;
+			}
+			#upsw{
+				width: 400px;
+				height: 35px;
+				border-radius:5px ;
+				border: 1px solid lightgray;
+			    margin-left: -30px;
+			    background-color:transparent ;
+			    padding-left:30px ;
+			    margin-top: 20px;
+			}
+			#loginBtn{
+				width: 456px;
+				height: 55px;
+				margin-top: 20px;
+				background-color: #1E9FFF;
+				border: 1px solid #1E9FFF;
+				border-radius: 5px;
+				color: white;
+				font-size: 20px;
+				margin-bottom: 5px;
+			}
+			#pic1{
+				width: 300px;
+				height: 100px;
+				margin-top:15px ;
+				margin-bottom:15px;
+			}
+			#pic2Div{
+				margin-left: 150px;
+				margin-right:20px;
+				margin-bottom: 10px;
+				float: left;
+			}
+			#pic3Div{
+				margin-left: 30px;
+				margin-right:20px;
+				margin-bottom: 10px;
+				float: left;
+			}
+			#pic4Div{
+				margin-left:30px;
+				margin-right:130px;
+				margin-bottom: 20px;
+				float: left;
+			}
+			#bottomDiv{
+				color: black;
+				font-family: "微软雅黑";	
+			}
+		</style>
+	</head>
+	<body>
+		<div id="loginDiv">
+		<img id="pic1" src="images/nuc.png">	
+		<h1>UOLab联合开放实验室管理平台</h1>	
+		<img src="images/user.jpg">
+		<input placeholder="用户名" type="text" id="uname" name="username">
+		<br>
+		<img src="images/lock.jpg">
+		<input placeholder="密码" type="text" id="upsw" name="userpassword">
+		<br>
+		<a href="deng.html">
+		<button id="loginBtn">登  录</button>
+		</a>
+		<br>
+		<p>
+		<div id="pic2Div">
+			<a href="https://wx.qq.com/">
+			<img  border="0" id="pic2" src="images/weixin.png"><a/>
+		</div>
+		<div id="pic3Div">
+		    <a href="https://passport.weibo.cn/signin/login">
+		    <img id="pic3" src="images/weibo.png"><a/>
+		</div>
+		<div id="pic4Div">
+		    <a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&redirect_uri=http%3A%2F%2Fspcdp.cdposs.qq.com%2Fauth%2Fcallback&client_id=101477813&state=http%3A%2F%2Fspcdp.cdposs.qq.com%2F">
+		    <img id="pic4" src="images/qq.png"><a/>
+		</div>
+		</p><br>
+		<p>
+			<div id="bottomDiv">开发者：魏江旗  中北大学   软件学院</div>
+		</p>
+	    </div>
+	</body>
+</html>
